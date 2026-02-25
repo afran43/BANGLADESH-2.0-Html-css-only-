@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Nav start  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+nav h2{
+    color: 0E0E0E;
+    font-weight: bold;
+    font-size: 32px;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    color: black;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 25px;
+}
+nav ul li .button2{
+    width: 116;
+    height: 52;
+    background-color: white;
+    color: #006A50;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 2px 5px;
+    align-items: center;
+    border-color: #006A50;
+    border-style: dashed;
+}
