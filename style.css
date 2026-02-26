@@ -7,7 +7,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */
+    background-color: #C6E4D6;
+    padding: 2px 32px;
 }
 nav h2{
     color: 0E0E0E;
@@ -30,14 +31,59 @@ nav ul li a{
     font-size: 25px;
 }
 nav ul li .button2{
-    width: 116;
-    height: 52;
     background-color: white;
     color: #006A50;
     border-radius: 3px;
     padding: 5px 10px;
-    margin: 2px 5px;
     align-items: center;
-    border-color: #006A50;
-    border-style: dashed;
+}
+.hero-section{
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    gap: 60px;
+    min-height: 600px;
+    max-height: 800px;
+}
+.hero-section .left{
+    /* width: 100vh; */
+    padding-left: 100px;
+    justify-content: center;
+}
+
+.hero-section .left h5{
+    font-size: 16px;
+    color: #5f5e5e;
+}
+.hero-section .left p{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero-section .left a{
+    text-decoration: none;
+    font-size: 22px ;
+    color: white;
+    
+}
+
+.right{
+    padding-right: 150px;
+}
+.hero-section .hero-button{
+    background-color: #006A50;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #006A50 ;
+}
+.hero-button.color{
+    color: #006A50;
+    background-color: white;
+}
+.hero-section .left .hero-button.color{
+    color: black;
 }
