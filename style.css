@@ -10,6 +10,7 @@ nav{
     background-color: #C6E4D6;
     padding: 2px 32px;
 }
+
 nav h2{
     color: 0E0E0E;
     font-weight: bold;
@@ -33,9 +34,14 @@ nav ul li a{
 nav ul li .button2{
     background-color: white;
     color: #006A50;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px 10px;
     align-items: center;
+    border: 2px solid #006A50 ;
+}
+nav ul li .button2:hover{
+    color: white;   
+    background-color: #006A50;
 }
 .hero-section{
     height: 560px;
@@ -65,7 +71,7 @@ nav ul li .button2{
 .hero-section .left a{
     text-decoration: none;
     font-size: 22px ;
-    color: white;
+    /* color: white; */
     
 }
 
@@ -73,17 +79,142 @@ nav ul li .button2{
     padding-right: 150px;
 }
 .hero-section .hero-button{
+    color: white;
     background-color: #006A50;
-    justify-content: space-between;
     margin-right: 10px;
     padding: 10px 20px;
     border-radius: 10px;
     border: 2px solid #006A50 ;
 }
-.hero-button.color{
-    color: #006A50;
-    background-color: white;
-}
-.hero-section .left .hero-button.color{
+
+.hero-section .hero-button-color{
     color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #006A50 ;
 }
+
+.hero-button-color:hover{
+    color: white;
+    background-color: #006A50;
+}
+
+.hero-button:hover{
+    color: white;   
+    background-color: red;
+}
+
+/* Start Pillars */
+
+.content-of-Pillars{
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    width: 302px;
+    height: 244px;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.logo{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 15px;
+}
+.content-of-Pillars h4{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.content-of-Pillars p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.Pillars .two-title h1{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.contener-of-Pillars{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Vision-content{
+    margin-left: 20px;
+    margin-top: 
+    50px;
+    margin-bottom: 10px;
+}
+.card{
+    background-color: #9abcf5;
+    border-radius: 15px;
+    width: 302px;
+    height: 244px;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.card-logo{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 15px;
+}
+.sub-content h4{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sub-content p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.sub-content a{
+    text-decoration: none;
+    color: white;
+}
+.card .card-but{
+    background-color: #5490F5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card2{
+    background-color: #b5f7d8;
+    border-radius: 15px;
+    width: 302px;
+    height: 244px;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.card2 .card-but{
+    color: white;
+    background-color: #09A15C;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card3{
+    background-color: #f5e3ba;
+    border-radius: 15px;
+    width: 302px;
+    height: 244px;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.card3 .card-but{
+    background-color: #FFC239;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.card-design{
+    display: flex;
+    justify-content: space-around;
+}
+
